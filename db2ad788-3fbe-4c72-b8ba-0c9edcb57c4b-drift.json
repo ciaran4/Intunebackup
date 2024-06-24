@@ -228,6 +228,30 @@
         "PolicyID":  "03074ac8-49c6-411b-82b5-eaa98a2c6fee"
     },
     {
+        "Name":  "Cloud Signature",
+        "Source":  {
+                       "value":  "{\r\n    \"description\":  \"Cloud Signature\",\r\n    \"displayName\":  \"Cloud Signature\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  true,\r\n    \"mailNickname\":  \"cloudsignature\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
+                       "SideIndicator":  "=\u003e"
+                   },
+        "Destination":  "Missing from Source",
+        "Location":  "Added to Tenant",
+        "URL":  "https://graph.microsoft.com/beta/groups",
+        "Type":  "Add",
+        "PolicyID":  "365f2a31-37bd-4241-8f82-357c5c5e6f9d"
+    },
+    {
+        "Name":  "All Company",
+        "Source":  {
+                       "value":  "{\r\n    \"description\":  \"This is the default group for everyone in the network\",\r\n    \"displayName\":  \"All Company\",\r\n    \"groupTypes\":  [\r\n                       \"Unified\"\r\n                   ],\r\n    \"mailEnabled\":  true,\r\n    \"mailNickname\":  \"allcompany\",\r\n    \"securityEnabled\":  false,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
+                       "SideIndicator":  "=\u003e"
+                   },
+        "Destination":  "Missing from Source",
+        "Location":  "Added to Tenant",
+        "URL":  "https://graph.microsoft.com/beta/groups",
+        "Type":  "Add",
+        "PolicyID":  "371a1ec2-4a63-450c-8183-e2e744ab6437"
+    },
+    {
         "Name":  "mbp+std Intune Policies",
         "Source":  {
                        "value":  "{\r\n    \"description\":  null,\r\n    \"displayName\":  \"mbp+std Intune Policies\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"eb753512-0\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
