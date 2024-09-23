@@ -468,30 +468,6 @@
         "PolicyID":  "eb85c0ac-b555-4b0f-89cf-9629c1a3119f"
     },
     {
-        "Name":  "Windows Autopatch - Ring3",
-        "Source":  {
-                       "value":  "{\r\n    \"description\":  \"Third deployment group for device policy rollout into an enterprise\",\r\n    \"displayName\":  \"Windows Autopatch - Ring3\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"4d907403-19aa-4968-95ee-0ce7e4de7f0b\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
-                       "SideIndicator":  "=\u003e"
-                   },
-        "Destination":  "Missing from Source",
-        "Location":  "Added to Tenant",
-        "URL":  "https://graph.microsoft.com/beta/groups",
-        "Type":  "Add",
-        "PolicyID":  "00a9f0b4-87cb-43b6-80b4-3d6f13927e12"
-    },
-    {
-        "Name":  "Modern Workplace Devices-Windows Autopatch-Fast",
-        "Source":  {
-                       "value":  "{\r\n    \"description\":  \"Fast ring for quick rollout and adoption\",\r\n    \"displayName\":  \"Modern Workplace Devices-Windows Autopatch-Fast\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"72b09dc3-958f-46e4-a26c-6cca450dc5c3\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
-                       "SideIndicator":  "=\u003e"
-                   },
-        "Destination":  "Missing from Source",
-        "Location":  "Added to Tenant",
-        "URL":  "https://graph.microsoft.com/beta/groups",
-        "Type":  "Add",
-        "PolicyID":  "00b00c9a-eb5c-4d39-a693-311efd9cd1f0"
-    },
-    {
         "Name":  "Workstations (Autopilot)",
         "Source":  {
                        "value":  "{\r\n    \"description\":  null,\r\n    \"displayName\":  \"Workstations (Autopilot)\",\r\n    \"groupTypes\":  [\r\n                       \"DynamicMembership\"\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"13ac31b6-7\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  \"(device.devicePhysicalIDs -any (_ -contains \\\"[ZTDId]\\\"))\",\r\n    \"membershipRuleProcessingState\":  \"On\"\r\n}",
@@ -502,42 +478,6 @@
         "URL":  "https://graph.microsoft.com/beta/groups",
         "Type":  "Add",
         "PolicyID":  "03074ac8-49c6-411b-82b5-eaa98a2c6fee"
-    },
-    {
-        "Name":  "Modern Workplace Roles - Service Reader",
-        "Source":  {
-                       "value":  "{\r\n    \"description\":  \"All users granted access to Modern Workplace Service Reader Role\",\r\n    \"displayName\":  \"Modern Workplace Roles - Service Reader\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"acc292c6-a3c1-4c29-8690-124e4e959a77\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
-                       "SideIndicator":  "=\u003e"
-                   },
-        "Destination":  "Missing from Source",
-        "Location":  "Added to Tenant",
-        "URL":  "https://graph.microsoft.com/beta/groups",
-        "Type":  "Add",
-        "PolicyID":  "0e53d3d7-b5b3-4c93-987c-1486305a8dbf"
-    },
-    {
-        "Name":  "Windows Autopatch - Ring2",
-        "Source":  {
-                       "value":  "{\r\n    \"description\":  \"Second deployment group for device policy rollout into an enterprise\",\r\n    \"displayName\":  \"Windows Autopatch - Ring2\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"d38555d9-6db8-4a3a-922a-2df384a218da\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
-                       "SideIndicator":  "=\u003e"
-                   },
-        "Destination":  "Missing from Source",
-        "Location":  "Added to Tenant",
-        "URL":  "https://graph.microsoft.com/beta/groups",
-        "Type":  "Add",
-        "PolicyID":  "2f7845a8-c1af-42ab-9629-ef23ee625787"
-    },
-    {
-        "Name":  "Windows Autopatch - Ring1",
-        "Source":  {
-                       "value":  "{\r\n    \"description\":  \"First deployment group for device policy rollout into an enterprise\",\r\n    \"displayName\":  \"Windows Autopatch - Ring1\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"a8f48499-3ed0-4663-aa14-594275970aee\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
-                       "SideIndicator":  "=\u003e"
-                   },
-        "Destination":  "Missing from Source",
-        "Location":  "Added to Tenant",
-        "URL":  "https://graph.microsoft.com/beta/groups",
-        "Type":  "Add",
-        "PolicyID":  "32aa3f7f-9c6e-44a2-b4f3-4c2e8de94fd3"
     },
     {
         "Name":  "Cloud Signature",
@@ -564,30 +504,6 @@
         "PolicyID":  "371a1ec2-4a63-450c-8183-e2e744ab6437"
     },
     {
-        "Name":  "Modern Workplace Devices-Windows Autopatch-First",
-        "Source":  {
-                       "value":  "{\r\n    \"description\":  \"First production ring for early adopters\",\r\n    \"displayName\":  \"Modern Workplace Devices-Windows Autopatch-First\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"e3a44a3f-f772-4380-91fa-8475c107be20\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
-                       "SideIndicator":  "=\u003e"
-                   },
-        "Destination":  "Missing from Source",
-        "Location":  "Added to Tenant",
-        "URL":  "https://graph.microsoft.com/beta/groups",
-        "Type":  "Add",
-        "PolicyID":  "6147317c-4ce8-4f11-8f9f-b7cf89e9cf10"
-    },
-    {
-        "Name":  "Modern Workplace-All",
-        "Source":  {
-                       "value":  "{\r\n    \"description\":  \"All Modern Workplace users\",\r\n    \"displayName\":  \"Modern Workplace-All\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"6b14bb2a-55d4-41bb-9a12-21bb94b83371\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
-                       "SideIndicator":  "=\u003e"
-                   },
-        "Destination":  "Missing from Source",
-        "Location":  "Added to Tenant",
-        "URL":  "https://graph.microsoft.com/beta/groups",
-        "Type":  "Add",
-        "PolicyID":  "68047052-d2f6-4e52-ba23-552843e2219e"
-    },
-    {
         "Name":  "mbp+std Intune Policies",
         "Source":  {
                        "value":  "{\r\n    \"description\":  null,\r\n    \"displayName\":  \"mbp+std Intune Policies\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"eb753512-0\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
@@ -598,54 +514,6 @@
         "URL":  "https://graph.microsoft.com/beta/groups",
         "Type":  "Add",
         "PolicyID":  "7268f348-c4ef-4c6b-8f82-a7c489aa98fd"
-    },
-    {
-        "Name":  "Modern Workplace Roles - Service Administrator",
-        "Source":  {
-                       "value":  "{\r\n    \"description\":  \"All users granted access to Modern Workplace Service Administrator Role\",\r\n    \"displayName\":  \"Modern Workplace Roles - Service Administrator\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"4dd01b55-0102-4339-b6e2-82c867ab4c5a\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
-                       "SideIndicator":  "=\u003e"
-                   },
-        "Destination":  "Missing from Source",
-        "Location":  "Added to Tenant",
-        "URL":  "https://graph.microsoft.com/beta/groups",
-        "Type":  "Add",
-        "PolicyID":  "7430f521-6808-486e-b2f7-ccd55055026f"
-    },
-    {
-        "Name":  "Windows Autopatch Device Registration",
-        "Source":  {
-                       "value":  "{\r\n    \"description\":  \"Automatic device registration for Windows Autopatch\",\r\n    \"displayName\":  \"Windows Autopatch Device Registration\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"69a90bd8-8ebf-4b64-8760-bcb89b2657ea\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
-                       "SideIndicator":  "=\u003e"
-                   },
-        "Destination":  "Missing from Source",
-        "Location":  "Added to Tenant",
-        "URL":  "https://graph.microsoft.com/beta/groups",
-        "Type":  "Add",
-        "PolicyID":  "9244b75a-7825-420f-bfe3-2e833fd0a2e5"
-    },
-    {
-        "Name":  "AutoPilot V2 User Group",
-        "Source":  {
-                       "value":  "{\r\n    \"description\":  null,\r\n    \"displayName\":  \"AutoPilot V2 User Group\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"a7de723d-d\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
-                       "SideIndicator":  "=\u003e"
-                   },
-        "Destination":  "Missing from Source",
-        "Location":  "Added to Tenant",
-        "URL":  "https://graph.microsoft.com/beta/groups",
-        "Type":  "Add",
-        "PolicyID":  "928e7f50-1c00-45e9-9808-3add53341ea7"
-    },
-    {
-        "Name":  "Modern Workplace Devices-Windows Autopatch-Broad",
-        "Source":  {
-                       "value":  "{\r\n    \"description\":  \"Final ring for broad rollout into an enterprise\",\r\n    \"displayName\":  \"Modern Workplace Devices-Windows Autopatch-Broad\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"e2481ebe-e7e6-4a44-8d53-15107b41a853\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
-                       "SideIndicator":  "=\u003e"
-                   },
-        "Destination":  "Missing from Source",
-        "Location":  "Added to Tenant",
-        "URL":  "https://graph.microsoft.com/beta/groups",
-        "Type":  "Add",
-        "PolicyID":  "9aee46bd-8a1c-43d5-85d3-eff70d0fd336"
     },
     {
         "Name":  "Workstations (Non-Autopilot)",
@@ -660,102 +528,6 @@
         "PolicyID":  "ab839e06-d8a9-4f26-9b62-86fe0bfe44ca"
     },
     {
-        "Name":  "Windows Autopatch - Last",
-        "Source":  {
-                       "value":  "{\r\n    \"description\":  \"Last deployment group for device policy rollout into an enterprise\",\r\n    \"displayName\":  \"Windows Autopatch - Last\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"1595a25e-21b1-474e-990c-cc0a2d12f4ae\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
-                       "SideIndicator":  "=\u003e"
-                   },
-        "Destination":  "Missing from Source",
-        "Location":  "Added to Tenant",
-        "URL":  "https://graph.microsoft.com/beta/groups",
-        "Type":  "Add",
-        "PolicyID":  "bda313b1-8efd-47f7-8d45-84f666075875"
-    },
-    {
-        "Name":  "Modern Workplace Devices-Virtual Machine",
-        "Source":  {
-                       "value":  "{\r\n    \"description\":  \"Any MMD Virtual Machine\",\r\n    \"displayName\":  \"Modern Workplace Devices-Virtual Machine\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"9e8bfbf6-dbba-4d5b-8fe7-425bfc93c801\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
-                       "SideIndicator":  "=\u003e"
-                   },
-        "Destination":  "Missing from Source",
-        "Location":  "Added to Tenant",
-        "URL":  "https://graph.microsoft.com/beta/groups",
-        "Type":  "Add",
-        "PolicyID":  "c831d7fd-6769-48ce-865f-5f623286bf05"
-    },
-    {
-        "Name":  "Azure ATP cobtechnologies Users",
-        "Source":  {
-                       "value":  "{\r\n    \"description\":  null,\r\n    \"displayName\":  \"Azure ATP cobtechnologies Users\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"AzureATPcobtechnologiesUsers\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
-                       "SideIndicator":  "=\u003e"
-                   },
-        "Destination":  "Missing from Source",
-        "Location":  "Added to Tenant",
-        "URL":  "https://graph.microsoft.com/beta/groups",
-        "Type":  "Add",
-        "PolicyID":  "ca7cc43d-a0eb-492e-85cb-f06b4cc2892b"
-    },
-    {
-        "Name":  "Modern Workplace Devices-All",
-        "Source":  {
-                       "value":  "{\r\n    \"description\":  \"All Modern Workplace devices\",\r\n    \"displayName\":  \"Modern Workplace Devices-All\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"655a47a1-34ae-4310-8e7e-82022e6ddc11\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
-                       "SideIndicator":  "=\u003e"
-                   },
-        "Destination":  "Missing from Source",
-        "Location":  "Added to Tenant",
-        "URL":  "https://graph.microsoft.com/beta/groups",
-        "Type":  "Add",
-        "PolicyID":  "d768a8f4-cb98-4001-9fd3-79ebcdc2dca2"
-    },
-    {
-        "Name":  "Windows Autopatch - Devices All",
-        "Source":  {
-                       "value":  "{\r\n    \"description\":  \"All Autopatch devices\",\r\n    \"displayName\":  \"Windows Autopatch - Devices All\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"f2146784-3b3f-493e-ae56-d051fad00548\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
-                       "SideIndicator":  "=\u003e"
-                   },
-        "Destination":  "Missing from Source",
-        "Location":  "Added to Tenant",
-        "URL":  "https://graph.microsoft.com/beta/groups",
-        "Type":  "Add",
-        "PolicyID":  "da522718-026f-44a4-9752-ceb0760d9e46"
-    },
-    {
-        "Name":  "Azure ATP cobtechnologies Administrators",
-        "Source":  {
-                       "value":  "{\r\n    \"description\":  null,\r\n    \"displayName\":  \"Azure ATP cobtechnologies Administrators\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"AzureATPcobtechnologiesAdministrators\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
-                       "SideIndicator":  "=\u003e"
-                   },
-        "Destination":  "Missing from Source",
-        "Location":  "Added to Tenant",
-        "URL":  "https://graph.microsoft.com/beta/groups",
-        "Type":  "Add",
-        "PolicyID":  "e00be4bb-43f2-4bf1-82c9-1ca9a305991c"
-    },
-    {
-        "Name":  "Windows Autopatch - Test",
-        "Source":  {
-                       "value":  "{\r\n    \"description\":  \"Test deployment group for device policy rollout into an enterprise\",\r\n    \"displayName\":  \"Windows Autopatch - Test\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"00ccf27d-49d4-4a78-8398-fab9aef0e15f\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
-                       "SideIndicator":  "=\u003e"
-                   },
-        "Destination":  "Missing from Source",
-        "Location":  "Added to Tenant",
-        "URL":  "https://graph.microsoft.com/beta/groups",
-        "Type":  "Add",
-        "PolicyID":  "e05d8c8b-19e8-4338-aa63-04e25afcce78"
-    },
-    {
-        "Name":  "Azure ATP cobtechnologies Viewers",
-        "Source":  {
-                       "value":  "{\r\n    \"description\":  null,\r\n    \"displayName\":  \"Azure ATP cobtechnologies Viewers\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"AzureATPcobtechnologiesViewers\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
-                       "SideIndicator":  "=\u003e"
-                   },
-        "Destination":  "Missing from Source",
-        "Location":  "Added to Tenant",
-        "URL":  "https://graph.microsoft.com/beta/groups",
-        "Type":  "Add",
-        "PolicyID":  "e96fdca8-982f-4a10-a433-8a45dd94179b"
-    },
-    {
         "Name":  "365 Alerts",
         "Source":  {
                        "value":  "{\r\n    \"description\":  \"365 Alerts\",\r\n    \"displayName\":  \"365 Alerts\",\r\n    \"groupTypes\":  [\r\n                       \"Unified\"\r\n                   ],\r\n    \"mailEnabled\":  true,\r\n    \"mailNickname\":  \"365Alerts\",\r\n    \"securityEnabled\":  false,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
@@ -766,30 +538,6 @@
         "URL":  "https://graph.microsoft.com/beta/groups",
         "Type":  "Add",
         "PolicyID":  "ee252282-a1c9-4969-b85a-ad8abdcb1d14"
-    },
-    {
-        "Name":  "Modern Workplace Devices-Windows Autopatch-Test",
-        "Source":  {
-                       "value":  "{\r\n    \"description\":  \"Immediate ring for device rollout\",\r\n    \"displayName\":  \"Modern Workplace Devices-Windows Autopatch-Test\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"b167153f-e740-4f9d-b858-3d5bde245c8a\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
-                       "SideIndicator":  "=\u003e"
-                   },
-        "Destination":  "Missing from Source",
-        "Location":  "Added to Tenant",
-        "URL":  "https://graph.microsoft.com/beta/groups",
-        "Type":  "Add",
-        "PolicyID":  "f6cf2032-0922-4f6c-b859-4d70b3b5e70c"
-    },
-    {
-        "Name":  "Autopilot V2 Device Group",
-        "Source":  {
-                       "value":  "{\r\n    \"description\":  null,\r\n    \"displayName\":  \"Autopilot V2 Device Group\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"352f59d9-d\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
-                       "SideIndicator":  "=\u003e"
-                   },
-        "Destination":  "Missing from Source",
-        "Location":  "Added to Tenant",
-        "URL":  "https://graph.microsoft.com/beta/groups",
-        "Type":  "Add",
-        "PolicyID":  "fa026533-80f9-4031-b187-49146a78c0df"
     },
     {
         "Name":  "Android apps data leak prevention policy",
