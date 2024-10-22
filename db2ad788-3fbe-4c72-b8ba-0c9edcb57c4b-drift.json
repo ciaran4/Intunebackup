@@ -192,6 +192,66 @@
         "PolicyID":  "15fa7150-adec-4b4c-91a3-09ff164638ea"
     },
     {
+        "Name":  "Windows Autopatch Update Policy - Default - Last",
+        "Source":  {
+                       "value":  "{\r\n    \"@odata.type\":  \"#microsoft.graph.windowsUpdateForBusinessConfiguration\",\r\n    \"roleScopeTagIds\":  [\r\n                            \"0\"\r\n                        ],\r\n    \"supportsScopeTags\":  false,\r\n    \"deviceManagementApplicabilityRuleOsEdition\":  null,\r\n    \"deviceManagementApplicabilityRuleOsVersion\":  null,\r\n    \"deviceManagementApplicabilityRuleDeviceMode\":  null,\r\n    \"description\":  null,\r\n    \"displayName\":  \"Windows Autopatch Update Policy - Default - Last\",\r\n    \"deliveryOptimizationMode\":  \"userDefined\",\r\n    \"prereleaseFeatures\":  \"userDefined\",\r\n    \"automaticUpdateMode\":  \"windowsDefault\",\r\n    \"microsoftUpdateServiceAllowed\":  true,\r\n    \"driversExcluded\":  false,\r\n    \"installationSchedule\":  null,\r\n    \"qualityUpdatesDeferralPeriodInDays\":  11,\r\n    \"featureUpdatesDeferralPeriodInDays\":  0,\r\n    \"qualityUpdatesPaused\":  false,\r\n    \"featureUpdatesPaused\":  false,\r\n    \"qualityUpdatesPauseExpiryDateTime\":  \"0001-01-01T00:00:00Z\",\r\n    \"featureUpdatesPauseExpiryDateTime\":  \"0001-01-01T00:00:00Z\",\r\n    \"businessReadyUpdatesOnly\":  \"userDefined\",\r\n    \"skipChecksBeforeRestart\":  false,\r\n    \"updateWeeks\":  null,\r\n    \"qualityUpdatesPauseStartDate\":  null,\r\n    \"featureUpdatesPauseStartDate\":  null,\r\n    \"featureUpdatesRollbackWindowInDays\":  30,\r\n    \"qualityUpdatesWillBeRolledBack\":  null,\r\n    \"featureUpdatesWillBeRolledBack\":  null,\r\n    \"qualityUpdatesRollbackStartDateTime\":  \"0001-01-01T00:00:00Z\",\r\n    \"featureUpdatesRollbackStartDateTime\":  \"0001-01-01T00:00:00Z\",\r\n    \"engagedRestartDeadlineInDays\":  null,\r\n    \"engagedRestartSnoozeScheduleInDays\":  null,\r\n    \"engagedRestartTransitionScheduleInDays\":  null,\r\n    \"deadlineForFeatureUpdatesInDays\":  5,\r\n    \"deadlineForQualityUpdatesInDays\":  3,\r\n    \"deadlineGracePeriodInDays\":  2,\r\n    \"postponeRebootUntilAfterDeadline\":  false,\r\n    \"autoRestartNotificationDismissal\":  \"notConfigured\",\r\n    \"scheduleRestartWarningInHours\":  null,\r\n    \"scheduleImminentRestartWarningInMinutes\":  null,\r\n    \"userPauseAccess\":  \"disabled\",\r\n    \"userWindowsUpdateScanAccess\":  \"enabled\",\r\n    \"updateNotificationLevel\":  \"defaultNotifications\",\r\n    \"allowWindows11Upgrade\":  false\r\n}",
+                       "SideIndicator":  "=\u003e"
+                   },
+        "Destination":  "Missing from Source",
+        "Location":  "Added to Tenant",
+        "URL":  "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations",
+        "Type":  "Add",
+        "PolicyID":  "62b72e14-a81f-475f-bc77-d3a48da94797"
+    },
+    {
+        "Name":  "Windows Autopatch Update Policy - Default - Ring1",
+        "Source":  {
+                       "value":  "{\r\n    \"@odata.type\":  \"#microsoft.graph.windowsUpdateForBusinessConfiguration\",\r\n    \"roleScopeTagIds\":  [\r\n                            \"0\"\r\n                        ],\r\n    \"supportsScopeTags\":  false,\r\n    \"deviceManagementApplicabilityRuleOsEdition\":  null,\r\n    \"deviceManagementApplicabilityRuleOsVersion\":  null,\r\n    \"deviceManagementApplicabilityRuleDeviceMode\":  null,\r\n    \"description\":  null,\r\n    \"displayName\":  \"Windows Autopatch Update Policy - Default - Ring1\",\r\n    \"deliveryOptimizationMode\":  \"userDefined\",\r\n    \"prereleaseFeatures\":  \"userDefined\",\r\n    \"automaticUpdateMode\":  \"windowsDefault\",\r\n    \"microsoftUpdateServiceAllowed\":  true,\r\n    \"driversExcluded\":  false,\r\n    \"installationSchedule\":  null,\r\n    \"qualityUpdatesDeferralPeriodInDays\":  1,\r\n    \"featureUpdatesDeferralPeriodInDays\":  0,\r\n    \"qualityUpdatesPaused\":  false,\r\n    \"featureUpdatesPaused\":  false,\r\n    \"qualityUpdatesPauseExpiryDateTime\":  \"0001-01-01T00:00:00Z\",\r\n    \"featureUpdatesPauseExpiryDateTime\":  \"0001-01-01T00:00:00Z\",\r\n    \"businessReadyUpdatesOnly\":  \"userDefined\",\r\n    \"skipChecksBeforeRestart\":  false,\r\n    \"updateWeeks\":  null,\r\n    \"qualityUpdatesPauseStartDate\":  null,\r\n    \"featureUpdatesPauseStartDate\":  null,\r\n    \"featureUpdatesRollbackWindowInDays\":  30,\r\n    \"qualityUpdatesWillBeRolledBack\":  null,\r\n    \"featureUpdatesWillBeRolledBack\":  null,\r\n    \"qualityUpdatesRollbackStartDateTime\":  \"0001-01-01T00:00:00Z\",\r\n    \"featureUpdatesRollbackStartDateTime\":  \"0001-01-01T00:00:00Z\",\r\n    \"engagedRestartDeadlineInDays\":  null,\r\n    \"engagedRestartSnoozeScheduleInDays\":  null,\r\n    \"engagedRestartTransitionScheduleInDays\":  null,\r\n    \"deadlineForFeatureUpdatesInDays\":  5,\r\n    \"deadlineForQualityUpdatesInDays\":  2,\r\n    \"deadlineGracePeriodInDays\":  2,\r\n    \"postponeRebootUntilAfterDeadline\":  false,\r\n    \"autoRestartNotificationDismissal\":  \"notConfigured\",\r\n    \"scheduleRestartWarningInHours\":  null,\r\n    \"scheduleImminentRestartWarningInMinutes\":  null,\r\n    \"userPauseAccess\":  \"disabled\",\r\n    \"userWindowsUpdateScanAccess\":  \"enabled\",\r\n    \"updateNotificationLevel\":  \"defaultNotifications\",\r\n    \"allowWindows11Upgrade\":  false\r\n}",
+                       "SideIndicator":  "=\u003e"
+                   },
+        "Destination":  "Missing from Source",
+        "Location":  "Added to Tenant",
+        "URL":  "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations",
+        "Type":  "Add",
+        "PolicyID":  "eb98c723-cec1-40ba-bc22-18350bebe512"
+    },
+    {
+        "Name":  "Windows Autopatch Update Policy - Default - Ring2",
+        "Source":  {
+                       "value":  "{\r\n    \"@odata.type\":  \"#microsoft.graph.windowsUpdateForBusinessConfiguration\",\r\n    \"roleScopeTagIds\":  [\r\n                            \"0\"\r\n                        ],\r\n    \"supportsScopeTags\":  false,\r\n    \"deviceManagementApplicabilityRuleOsEdition\":  null,\r\n    \"deviceManagementApplicabilityRuleOsVersion\":  null,\r\n    \"deviceManagementApplicabilityRuleDeviceMode\":  null,\r\n    \"description\":  null,\r\n    \"displayName\":  \"Windows Autopatch Update Policy - Default - Ring2\",\r\n    \"deliveryOptimizationMode\":  \"userDefined\",\r\n    \"prereleaseFeatures\":  \"userDefined\",\r\n    \"automaticUpdateMode\":  \"windowsDefault\",\r\n    \"microsoftUpdateServiceAllowed\":  true,\r\n    \"driversExcluded\":  false,\r\n    \"installationSchedule\":  null,\r\n    \"qualityUpdatesDeferralPeriodInDays\":  6,\r\n    \"featureUpdatesDeferralPeriodInDays\":  0,\r\n    \"qualityUpdatesPaused\":  false,\r\n    \"featureUpdatesPaused\":  false,\r\n    \"qualityUpdatesPauseExpiryDateTime\":  \"0001-01-01T00:00:00Z\",\r\n    \"featureUpdatesPauseExpiryDateTime\":  \"0001-01-01T00:00:00Z\",\r\n    \"businessReadyUpdatesOnly\":  \"userDefined\",\r\n    \"skipChecksBeforeRestart\":  false,\r\n    \"updateWeeks\":  null,\r\n    \"qualityUpdatesPauseStartDate\":  null,\r\n    \"featureUpdatesPauseStartDate\":  null,\r\n    \"featureUpdatesRollbackWindowInDays\":  30,\r\n    \"qualityUpdatesWillBeRolledBack\":  null,\r\n    \"featureUpdatesWillBeRolledBack\":  null,\r\n    \"qualityUpdatesRollbackStartDateTime\":  \"0001-01-01T00:00:00Z\",\r\n    \"featureUpdatesRollbackStartDateTime\":  \"0001-01-01T00:00:00Z\",\r\n    \"engagedRestartDeadlineInDays\":  null,\r\n    \"engagedRestartSnoozeScheduleInDays\":  null,\r\n    \"engagedRestartTransitionScheduleInDays\":  null,\r\n    \"deadlineForFeatureUpdatesInDays\":  5,\r\n    \"deadlineForQualityUpdatesInDays\":  2,\r\n    \"deadlineGracePeriodInDays\":  2,\r\n    \"postponeRebootUntilAfterDeadline\":  false,\r\n    \"autoRestartNotificationDismissal\":  \"notConfigured\",\r\n    \"scheduleRestartWarningInHours\":  null,\r\n    \"scheduleImminentRestartWarningInMinutes\":  null,\r\n    \"userPauseAccess\":  \"disabled\",\r\n    \"userWindowsUpdateScanAccess\":  \"enabled\",\r\n    \"updateNotificationLevel\":  \"defaultNotifications\",\r\n    \"allowWindows11Upgrade\":  false\r\n}",
+                       "SideIndicator":  "=\u003e"
+                   },
+        "Destination":  "Missing from Source",
+        "Location":  "Added to Tenant",
+        "URL":  "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations",
+        "Type":  "Add",
+        "PolicyID":  "9a0cbfea-1612-485d-b0e5-c5b9357f91c3"
+    },
+    {
+        "Name":  "Windows Autopatch Update Policy - Default - Ring3",
+        "Source":  {
+                       "value":  "{\r\n    \"@odata.type\":  \"#microsoft.graph.windowsUpdateForBusinessConfiguration\",\r\n    \"roleScopeTagIds\":  [\r\n                            \"0\"\r\n                        ],\r\n    \"supportsScopeTags\":  false,\r\n    \"deviceManagementApplicabilityRuleOsEdition\":  null,\r\n    \"deviceManagementApplicabilityRuleOsVersion\":  null,\r\n    \"deviceManagementApplicabilityRuleDeviceMode\":  null,\r\n    \"description\":  null,\r\n    \"displayName\":  \"Windows Autopatch Update Policy - Default - Ring3\",\r\n    \"deliveryOptimizationMode\":  \"userDefined\",\r\n    \"prereleaseFeatures\":  \"userDefined\",\r\n    \"automaticUpdateMode\":  \"windowsDefault\",\r\n    \"microsoftUpdateServiceAllowed\":  true,\r\n    \"driversExcluded\":  false,\r\n    \"installationSchedule\":  null,\r\n    \"qualityUpdatesDeferralPeriodInDays\":  9,\r\n    \"featureUpdatesDeferralPeriodInDays\":  0,\r\n    \"qualityUpdatesPaused\":  false,\r\n    \"featureUpdatesPaused\":  false,\r\n    \"qualityUpdatesPauseExpiryDateTime\":  \"0001-01-01T00:00:00Z\",\r\n    \"featureUpdatesPauseExpiryDateTime\":  \"0001-01-01T00:00:00Z\",\r\n    \"businessReadyUpdatesOnly\":  \"userDefined\",\r\n    \"skipChecksBeforeRestart\":  false,\r\n    \"updateWeeks\":  null,\r\n    \"qualityUpdatesPauseStartDate\":  null,\r\n    \"featureUpdatesPauseStartDate\":  null,\r\n    \"featureUpdatesRollbackWindowInDays\":  30,\r\n    \"qualityUpdatesWillBeRolledBack\":  null,\r\n    \"featureUpdatesWillBeRolledBack\":  null,\r\n    \"qualityUpdatesRollbackStartDateTime\":  \"0001-01-01T00:00:00Z\",\r\n    \"featureUpdatesRollbackStartDateTime\":  \"0001-01-01T00:00:00Z\",\r\n    \"engagedRestartDeadlineInDays\":  null,\r\n    \"engagedRestartSnoozeScheduleInDays\":  null,\r\n    \"engagedRestartTransitionScheduleInDays\":  null,\r\n    \"deadlineForFeatureUpdatesInDays\":  5,\r\n    \"deadlineForQualityUpdatesInDays\":  5,\r\n    \"deadlineGracePeriodInDays\":  2,\r\n    \"postponeRebootUntilAfterDeadline\":  false,\r\n    \"autoRestartNotificationDismissal\":  \"notConfigured\",\r\n    \"scheduleRestartWarningInHours\":  null,\r\n    \"scheduleImminentRestartWarningInMinutes\":  null,\r\n    \"userPauseAccess\":  \"disabled\",\r\n    \"userWindowsUpdateScanAccess\":  \"enabled\",\r\n    \"updateNotificationLevel\":  \"defaultNotifications\",\r\n    \"allowWindows11Upgrade\":  false\r\n}",
+                       "SideIndicator":  "=\u003e"
+                   },
+        "Destination":  "Missing from Source",
+        "Location":  "Added to Tenant",
+        "URL":  "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations",
+        "Type":  "Add",
+        "PolicyID":  "d6e56098-dcf2-4e1f-a43e-fb5f1943f79b"
+    },
+    {
+        "Name":  "Windows Autopatch Update Policy - Default - Test",
+        "Source":  {
+                       "value":  "{\r\n    \"@odata.type\":  \"#microsoft.graph.windowsUpdateForBusinessConfiguration\",\r\n    \"roleScopeTagIds\":  [\r\n                            \"0\"\r\n                        ],\r\n    \"supportsScopeTags\":  false,\r\n    \"deviceManagementApplicabilityRuleOsEdition\":  null,\r\n    \"deviceManagementApplicabilityRuleOsVersion\":  null,\r\n    \"deviceManagementApplicabilityRuleDeviceMode\":  null,\r\n    \"description\":  null,\r\n    \"displayName\":  \"Windows Autopatch Update Policy - Default - Test\",\r\n    \"deliveryOptimizationMode\":  \"userDefined\",\r\n    \"prereleaseFeatures\":  \"userDefined\",\r\n    \"automaticUpdateMode\":  \"windowsDefault\",\r\n    \"microsoftUpdateServiceAllowed\":  true,\r\n    \"driversExcluded\":  false,\r\n    \"installationSchedule\":  null,\r\n    \"qualityUpdatesDeferralPeriodInDays\":  0,\r\n    \"featureUpdatesDeferralPeriodInDays\":  0,\r\n    \"qualityUpdatesPaused\":  false,\r\n    \"featureUpdatesPaused\":  false,\r\n    \"qualityUpdatesPauseExpiryDateTime\":  \"0001-01-01T00:00:00Z\",\r\n    \"featureUpdatesPauseExpiryDateTime\":  \"0001-01-01T00:00:00Z\",\r\n    \"businessReadyUpdatesOnly\":  \"userDefined\",\r\n    \"skipChecksBeforeRestart\":  false,\r\n    \"updateWeeks\":  null,\r\n    \"qualityUpdatesPauseStartDate\":  null,\r\n    \"featureUpdatesPauseStartDate\":  null,\r\n    \"featureUpdatesRollbackWindowInDays\":  30,\r\n    \"qualityUpdatesWillBeRolledBack\":  null,\r\n    \"featureUpdatesWillBeRolledBack\":  null,\r\n    \"qualityUpdatesRollbackStartDateTime\":  \"0001-01-01T00:00:00Z\",\r\n    \"featureUpdatesRollbackStartDateTime\":  \"0001-01-01T00:00:00Z\",\r\n    \"engagedRestartDeadlineInDays\":  null,\r\n    \"engagedRestartSnoozeScheduleInDays\":  null,\r\n    \"engagedRestartTransitionScheduleInDays\":  null,\r\n    \"deadlineForFeatureUpdatesInDays\":  5,\r\n    \"deadlineForQualityUpdatesInDays\":  0,\r\n    \"deadlineGracePeriodInDays\":  0,\r\n    \"postponeRebootUntilAfterDeadline\":  false,\r\n    \"autoRestartNotificationDismissal\":  \"notConfigured\",\r\n    \"scheduleRestartWarningInHours\":  null,\r\n    \"scheduleImminentRestartWarningInMinutes\":  null,\r\n    \"userPauseAccess\":  \"disabled\",\r\n    \"userWindowsUpdateScanAccess\":  \"enabled\",\r\n    \"updateNotificationLevel\":  \"defaultNotifications\",\r\n    \"allowWindows11Upgrade\":  false\r\n}",
+                       "SideIndicator":  "=\u003e"
+                   },
+        "Destination":  "Missing from Source",
+        "Location":  "Added to Tenant",
+        "URL":  "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations",
+        "Type":  "Add",
+        "PolicyID":  "d6c6a822-680a-406c-b5be-ad6851578ba1"
+    },
+    {
         "Name":  "30 Minute Config Refresh",
         "Source":  {
                        "value":  "{\r\n    \"@odata.context\":  \"https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies/$entity\",\r\n    \"description\":  \"\",\r\n    \"name\":  \"30 Minute Config Refresh\",\r\n    \"platforms\":  \"windows10\",\r\n    \"priorityMetaData\":  null,\r\n    \"roleScopeTagIds\":  [\r\n                            \"0\"\r\n                        ],\r\n    \"settingCount\":  1,\r\n    \"technologies\":  \"mdm\",\r\n    \"templateReference\":  {\r\n                              \"templateId\":  \"\",\r\n                              \"templateFamily\":  \"none\",\r\n                              \"templateDisplayName\":  null,\r\n                              \"templateDisplayVersion\":  null\r\n                          },\r\n    \"settings\":  [\r\n                     {\r\n                         \"id\":  \"0\",\r\n                         \"settingInstance\":  {\r\n                                                 \"@odata.type\":  \"#microsoft.graph.deviceManagementConfigurationGroupSettingCollectionInstance\",\r\n                                                 \"settingDefinitionId\":  \"device_vendor_msft_dmclient_provider_{providerid}\",\r\n                                                 \"settingInstanceTemplateReference\":  null,\r\n                                                 \"groupSettingCollectionValue\":  [\r\n                                                                                     {\r\n                                                                                         \"settingValueTemplateReference\":  null,\r\n                                                                                         \"children\":  [\r\n                                                                                                          {\r\n                                                                                                              \"@odata.type\":  \"#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance\",\r\n                                                                                                              \"settingDefinitionId\":  \"device_vendor_msft_dmclient_provider_{providerid}_configrefresh_enabled\",\r\n                                                                                                              \"settingInstanceTemplateReference\":  null,\r\n                                                                                                              \"choiceSettingValue\":  {\r\n                                                                                                                                         \"settingValueTemplateReference\":  null,\r\n                                                                                                                                         \"value\":  \"device_vendor_msft_dmclient_provider_{providerid}_configrefresh_enabled_true\",\r\n                                                                                                                                         \"children\":  [\r\n\r\n                                                                                                                                                      ]\r\n                                                                                                                                     }\r\n                                                                                                          },\r\n                                                                                                          {\r\n                                                                                                              \"@odata.type\":  \"#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance\",\r\n                                                                                                              \"settingDefinitionId\":  \"device_vendor_msft_dmclient_provider_{providerid}_configrefresh_cadence\",\r\n                                                                                                              \"settingInstanceTemplateReference\":  null,\r\n                                                                                                              \"simpleSettingValue\":  {\r\n                                                                                                                                         \"@odata.type\":  \"#microsoft.graph.deviceManagementConfigurationIntegerSettingValue\",\r\n                                                                                                                                         \"settingValueTemplateReference\":  null,\r\n                                                                                                                                         \"value\":  30\r\n                                                                                                                                     }\r\n                                                                                                          }\r\n                                                                                                      ]\r\n                                                                                     }\r\n                                                                                 ]\r\n                                             }\r\n                     }\r\n                 ]\r\n}",
@@ -384,6 +444,54 @@
         "PolicyID":  "371a1ec2-4a63-450c-8183-e2e744ab6437"
     },
     {
+        "Name":  "Modern Workplace Devices-Windows Autopatch-Test",
+        "Source":  {
+                       "value":  "{\r\n    \"description\":  \"Auto Generated by Windows Autopatch\",\r\n    \"displayName\":  \"Modern Workplace Devices-Windows Autopatch-Test\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"c1b67113-55b4-4613-bcd2-7a954328f63c\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
+                       "SideIndicator":  "=\u003e"
+                   },
+        "Destination":  "Missing from Source",
+        "Location":  "Added to Tenant",
+        "URL":  "https://graph.microsoft.com/beta/groups",
+        "Type":  "Add",
+        "PolicyID":  "4f118cb0-1aa9-4475-bed6-2eefa234618d"
+    },
+    {
+        "Name":  "Windows Autopatch - Ring3",
+        "Source":  {
+                       "value":  "{\r\n    \"description\":  \"Auto Generated by Windows Autopatch\",\r\n    \"displayName\":  \"Windows Autopatch - Ring3\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"9fa1e023-ac5f-4854-98d2-24a2973bd8d5\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
+                       "SideIndicator":  "=\u003e"
+                   },
+        "Destination":  "Missing from Source",
+        "Location":  "Added to Tenant",
+        "URL":  "https://graph.microsoft.com/beta/groups",
+        "Type":  "Add",
+        "PolicyID":  "54f4739f-9a8d-4c34-a3ff-3e5fb2477c33"
+    },
+    {
+        "Name":  "Windows Autopatch - Ring2",
+        "Source":  {
+                       "value":  "{\r\n    \"description\":  \"Auto Generated by Windows Autopatch\",\r\n    \"displayName\":  \"Windows Autopatch - Ring2\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"17ad7a5d-1c44-48a7-af62-ad6b13fe0bd9\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
+                       "SideIndicator":  "=\u003e"
+                   },
+        "Destination":  "Missing from Source",
+        "Location":  "Added to Tenant",
+        "URL":  "https://graph.microsoft.com/beta/groups",
+        "Type":  "Add",
+        "PolicyID":  "5cc71a26-ee51-4d1f-a156-277584eb6c9f"
+    },
+    {
+        "Name":  "Windows Autopatch - Ring1",
+        "Source":  {
+                       "value":  "{\r\n    \"description\":  \"Auto Generated by Windows Autopatch\",\r\n    \"displayName\":  \"Windows Autopatch - Ring1\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"68fab954-40ea-46e6-b572-abc34e6fd6b0\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
+                       "SideIndicator":  "=\u003e"
+                   },
+        "Destination":  "Missing from Source",
+        "Location":  "Added to Tenant",
+        "URL":  "https://graph.microsoft.com/beta/groups",
+        "Type":  "Add",
+        "PolicyID":  "7158b3ee-3658-424b-882f-c20b57ad4594"
+    },
+    {
         "Name":  "Finance Confidential",
         "Source":  {
                        "value":  "{\r\n    \"description\":  \"Finance Confidential\",\r\n    \"displayName\":  \"Finance Confidential\",\r\n    \"groupTypes\":  [\r\n                       \"Unified\"\r\n                   ],\r\n    \"mailEnabled\":  true,\r\n    \"mailNickname\":  \"FinanceConfidential\",\r\n    \"securityEnabled\":  false,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
@@ -408,6 +516,54 @@
         "PolicyID":  "7268f348-c4ef-4c6b-8f82-a7c489aa98fd"
     },
     {
+        "Name":  "Windows Autopatch - Devices All",
+        "Source":  {
+                       "value":  "{\r\n    \"description\":  \"Auto Generated by Windows Autopatch\",\r\n    \"displayName\":  \"Windows Autopatch - Devices All\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"69681751-0c23-44e7-b2d6-1d199c926e7e\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
+                       "SideIndicator":  "=\u003e"
+                   },
+        "Destination":  "Missing from Source",
+        "Location":  "Added to Tenant",
+        "URL":  "https://graph.microsoft.com/beta/groups",
+        "Type":  "Add",
+        "PolicyID":  "88025ce5-c0cf-4cd9-ab15-9b1794a97226"
+    },
+    {
+        "Name":  "Windows Autopatch - Test",
+        "Source":  {
+                       "value":  "{\r\n    \"description\":  \"Auto Generated by Windows Autopatch\",\r\n    \"displayName\":  \"Windows Autopatch - Test\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"79c77ab7-9ebf-49a0-8212-0ca77bc7090d\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
+                       "SideIndicator":  "=\u003e"
+                   },
+        "Destination":  "Missing from Source",
+        "Location":  "Added to Tenant",
+        "URL":  "https://graph.microsoft.com/beta/groups",
+        "Type":  "Add",
+        "PolicyID":  "8a5625e7-dfe3-4651-8513-a3227a3d7d6b"
+    },
+    {
+        "Name":  "Modern Workplace Devices-Windows Autopatch-Fast",
+        "Source":  {
+                       "value":  "{\r\n    \"description\":  \"Auto Generated by Windows Autopatch\",\r\n    \"displayName\":  \"Modern Workplace Devices-Windows Autopatch-Fast\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"48c15752-5032-49e0-ba6c-cb0f59dc5e52\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
+                       "SideIndicator":  "=\u003e"
+                   },
+        "Destination":  "Missing from Source",
+        "Location":  "Added to Tenant",
+        "URL":  "https://graph.microsoft.com/beta/groups",
+        "Type":  "Add",
+        "PolicyID":  "969da6d9-00e2-473c-b0eb-b35947cd845e"
+    },
+    {
+        "Name":  "Windows Autopatch - Last",
+        "Source":  {
+                       "value":  "{\r\n    \"description\":  \"Auto Generated by Windows Autopatch\",\r\n    \"displayName\":  \"Windows Autopatch - Last\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"89250aea-1e7d-41ac-9e23-48da33934400\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
+                       "SideIndicator":  "=\u003e"
+                   },
+        "Destination":  "Missing from Source",
+        "Location":  "Added to Tenant",
+        "URL":  "https://graph.microsoft.com/beta/groups",
+        "Type":  "Add",
+        "PolicyID":  "a388b476-07ad-4dd1-938c-b3c4d4a1b226"
+    },
+    {
         "Name":  "Workstations (Non-Autopilot)",
         "Source":  {
                        "value":  "{\r\n    \"description\":  null,\r\n    \"displayName\":  \"Workstations (Non-Autopilot)\",\r\n    \"groupTypes\":  [\r\n                       \"DynamicMembership\"\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"66ff244e-d\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  \"((device.deviceOSType -eq \\\"Windows\\\") or (device.deviceOSType -StartsWith \\\"Mac\\\")) and (device.managementType -eq \\\"MDM\\\") and (device.devicePhysicalIDs -all _ -notContains \\\"[ZTDId]\\\")\",\r\n    \"membershipRuleProcessingState\":  \"On\"\r\n}",
@@ -420,6 +576,30 @@
         "PolicyID":  "ab839e06-d8a9-4f26-9b62-86fe0bfe44ca"
     },
     {
+        "Name":  "Modern Workplace Devices-Virtual Machine",
+        "Source":  {
+                       "value":  "{\r\n    \"description\":  \"Auto Generated by Windows Autopatch\",\r\n    \"displayName\":  \"Modern Workplace Devices-Virtual Machine\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"2331f6c4-cf95-4fe9-b8ef-f2089595be57\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
+                       "SideIndicator":  "=\u003e"
+                   },
+        "Destination":  "Missing from Source",
+        "Location":  "Added to Tenant",
+        "URL":  "https://graph.microsoft.com/beta/groups",
+        "Type":  "Add",
+        "PolicyID":  "ac016746-1d58-4548-8119-08bd618e9339"
+    },
+    {
+        "Name":  "Modern Workplace Devices-Windows Autopatch-Broad",
+        "Source":  {
+                       "value":  "{\r\n    \"description\":  \"Auto Generated by Windows Autopatch\",\r\n    \"displayName\":  \"Modern Workplace Devices-Windows Autopatch-Broad\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"8af028ee-ee5e-4dbc-99e1-92b3e9c4c08f\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
+                       "SideIndicator":  "=\u003e"
+                   },
+        "Destination":  "Missing from Source",
+        "Location":  "Added to Tenant",
+        "URL":  "https://graph.microsoft.com/beta/groups",
+        "Type":  "Add",
+        "PolicyID":  "b89a2068-fabe-4ea7-954e-dba0f1a545a0"
+    },
+    {
         "Name":  "365 Alerts",
         "Source":  {
                        "value":  "{\r\n    \"description\":  \"365 Alerts\",\r\n    \"displayName\":  \"365 Alerts\",\r\n    \"groupTypes\":  [\r\n                       \"Unified\"\r\n                   ],\r\n    \"mailEnabled\":  true,\r\n    \"mailNickname\":  \"365Alerts\",\r\n    \"securityEnabled\":  false,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
@@ -430,6 +610,18 @@
         "URL":  "https://graph.microsoft.com/beta/groups",
         "Type":  "Add",
         "PolicyID":  "ee252282-a1c9-4969-b85a-ad8abdcb1d14"
+    },
+    {
+        "Name":  "Modern Workplace Devices-Windows Autopatch-First",
+        "Source":  {
+                       "value":  "{\r\n    \"description\":  \"Auto Generated by Windows Autopatch\",\r\n    \"displayName\":  \"Modern Workplace Devices-Windows Autopatch-First\",\r\n    \"groupTypes\":  [\r\n\r\n                   ],\r\n    \"mailEnabled\":  false,\r\n    \"mailNickname\":  \"0f06500b-05a3-4a86-8136-26d08b358145\",\r\n    \"securityEnabled\":  true,\r\n    \"isAssignableToRole\":  null,\r\n    \"membershipRule\":  null,\r\n    \"membershipRuleProcessingState\":  null\r\n}",
+                       "SideIndicator":  "=\u003e"
+                   },
+        "Destination":  "Missing from Source",
+        "Location":  "Added to Tenant",
+        "URL":  "https://graph.microsoft.com/beta/groups",
+        "Type":  "Add",
+        "PolicyID":  "f3723c50-7324-497a-8c04-bf781c16849f"
     },
     {
         "Name":  "Android apps data leak prevention policy",
@@ -486,6 +678,7 @@
                     "conditionalaccess",
                     "conditionalaccess",
                     "conditionalaccess",
+                    "conditionalaccess",
                     "conditionalaccess"
                 ],
         "Type":  "Add",
@@ -500,7 +693,8 @@
                          "1ba886ae-d1ed-421e-a152-965428335c70",
                          "eac18aab-edc4-4f4f-bfc7-2ef35f8d7e5c",
                          "23150c76-eda5-4c6f-96c4-7f12b5f9ad97",
-                         "fee8804d-4804-4c55-9be6-d52df0363ef9"
+                         "fee8804d-4804-4c55-9be6-d52df0363ef9",
+                         "68feba58-1d63-414d-930c-30f3ebe0e79d"
                      ]
     },
     {
@@ -630,6 +824,7 @@
                     "conditionalaccess",
                     "conditionalaccess",
                     "conditionalaccess",
+                    "conditionalaccess",
                     "conditionalaccess"
                 ],
         "Type":  "Add",
@@ -644,7 +839,8 @@
                          "1ba886ae-d1ed-421e-a152-965428335c70",
                          "eac18aab-edc4-4f4f-bfc7-2ef35f8d7e5c",
                          "23150c76-eda5-4c6f-96c4-7f12b5f9ad97",
-                         "fee8804d-4804-4c55-9be6-d52df0363ef9"
+                         "fee8804d-4804-4c55-9be6-d52df0363ef9",
+                         "68feba58-1d63-414d-930c-30f3ebe0e79d"
                      ]
     },
     {
@@ -759,6 +955,7 @@
                     "conditionalaccess",
                     "conditionalaccess",
                     "conditionalaccess",
+                    "conditionalaccess",
                     "conditionalaccess"
                 ],
         "Type":  "Add",
@@ -773,7 +970,8 @@
                          "1ba886ae-d1ed-421e-a152-965428335c70",
                          "eac18aab-edc4-4f4f-bfc7-2ef35f8d7e5c",
                          "23150c76-eda5-4c6f-96c4-7f12b5f9ad97",
-                         "fee8804d-4804-4c55-9be6-d52df0363ef9"
+                         "fee8804d-4804-4c55-9be6-d52df0363ef9",
+                         "68feba58-1d63-414d-930c-30f3ebe0e79d"
                      ]
     },
     {
@@ -871,6 +1069,7 @@
                     "conditionalaccess",
                     "conditionalaccess",
                     "conditionalaccess",
+                    "conditionalaccess",
                     "conditionalaccess"
                 ],
         "Type":  "Add",
@@ -885,7 +1084,129 @@
                          "1ba886ae-d1ed-421e-a152-965428335c70",
                          "eac18aab-edc4-4f4f-bfc7-2ef35f8d7e5c",
                          "23150c76-eda5-4c6f-96c4-7f12b5f9ad97",
-                         "fee8804d-4804-4c55-9be6-d52df0363ef9"
+                         "fee8804d-4804-4c55-9be6-d52df0363ef9",
+                         "68feba58-1d63-414d-930c-30f3ebe0e79d"
+                     ]
+    },
+    {
+        "Name":  "iOS apps data leak prevention policy",
+        "Source":  {
+                       "@odata.context":  "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies/$entity",
+                       "id":  "68feba58-1d63-414d-930c-30f3ebe0e79d",
+                       "templateId":  "16aaa400-bfdf-4756-a420-ad2245d4cde8",
+                       "displayName":  "Block access to Office Apps for users with Insider Risk (Preview)",
+                       "createdDateTime":  "\/Date(1729599533006)\/",
+                       "modifiedDateTime":  null,
+                       "state":  "enabledForReportingButNotEnforced",
+                       "partialEnablementStrategy":  null,
+                       "sessionControls":  null,
+                       "conditions":  {
+                                          "userRiskLevels":  [
+
+                                                             ],
+                                          "signInRiskLevels":  [
+
+                                                               ],
+                                          "clientAppTypes":  [
+                                                                 "all"
+                                                             ],
+                                          "insiderRiskLevels":  "elevated",
+                                          "platforms":  null,
+                                          "locations":  null,
+                                          "times":  null,
+                                          "deviceStates":  null,
+                                          "devices":  null,
+                                          "clientApplications":  null,
+                                          "applications":  {
+                                                               "includeApplications":  [
+                                                                                           "Office365"
+                                                                                       ],
+                                                               "excludeApplications":  [
+
+                                                                                       ],
+                                                               "includeUserActions":  [
+
+                                                                                      ],
+                                                               "includeAuthenticationContextClassReferences":  [
+
+                                                                                                               ],
+                                                               "applicationFilter":  null
+                                                           },
+                                          "users":  {
+                                                        "includeUsers":  [
+                                                                             "All"
+                                                                         ],
+                                                        "excludeUsers":  [
+                                                                             "4b19a055-6752-4da2-9ecf-c8d55bf4051d"
+                                                                         ],
+                                                        "includeGroups":  [
+
+                                                                          ],
+                                                        "excludeGroups":  [
+
+                                                                          ],
+                                                        "includeRoles":  [
+
+                                                                         ],
+                                                        "excludeRoles":  [
+
+                                                                         ],
+                                                        "includeGuestsOrExternalUsers":  null,
+                                                        "excludeGuestsOrExternalUsers":  {
+                                                                                             "guestOrExternalUserTypes":  "b2bDirectConnectUser,otherExternalUser,serviceProvider",
+                                                                                             "externalTenants":  {
+                                                                                                                     "@odata.type":  "#microsoft.graph.conditionalAccessAllExternalTenants",
+                                                                                                                     "membershipKind":  "all"
+                                                                                                                 }
+                                                                                         }
+                                                    }
+                                      },
+                       "grantControls":  {
+                                             "operator":  "OR",
+                                             "builtInControls":  [
+                                                                     "block"
+                                                                 ],
+                                             "customAuthenticationFactors":  [
+
+                                                                             ],
+                                             "termsOfUse":  [
+
+                                                            ],
+                                             "authenticationStrength@odata.context":  "https://graph.microsoft.com/beta/$metadata#identity/conditionalAccess/policies(\u002768feba58-1d63-414d-930c-30f3ebe0e79d\u0027)/grantControls/authenticationStrength/$entity",
+                                             "authenticationStrength":  null
+                                         },
+                       "SideIndicator":  "=\u003e"
+                   },
+        "Destination":  "Missing from Source",
+        "Location":  "Added to Tenant",
+        "URL":  [
+                    "https://graph.microsoft.com/beta/deviceAppManagement/managedAppPolicies",
+                    "conditionalaccess",
+                    "conditionalaccess",
+                    "conditionalaccess",
+                    "conditionalaccess",
+                    "conditionalaccess",
+                    "conditionalaccess",
+                    "conditionalaccess",
+                    "conditionalaccess",
+                    "conditionalaccess",
+                    "conditionalaccess",
+                    "conditionalaccess"
+                ],
+        "Type":  "Add",
+        "PolicyID":  [
+                         "T_36a3a205-ca09-44d0-9e98-3745037134cb",
+                         "96cd3880-7554-4848-bd92-c77ef340f9d5",
+                         "c9e24f6c-5535-4a0c-b6c6-bf4101418c2c",
+                         "1117e724-4445-455e-acba-f99cc30dbd2d",
+                         "21d2267e-d9f1-4e55-8b93-56cccd774347",
+                         "f9c86fc9-0dcf-491d-8bf1-73581dc5b55f",
+                         "66069f80-a425-41dc-9c16-48555aae6ca2",
+                         "1ba886ae-d1ed-421e-a152-965428335c70",
+                         "eac18aab-edc4-4f4f-bfc7-2ef35f8d7e5c",
+                         "23150c76-eda5-4c6f-96c4-7f12b5f9ad97",
+                         "fee8804d-4804-4c55-9be6-d52df0363ef9",
+                         "68feba58-1d63-414d-930c-30f3ebe0e79d"
                      ]
     },
     {
@@ -915,7 +1236,7 @@
     {
         "Name":  "Driver Updates",
         "Source":  {
-                       "value":  "{\r\n    \"@odata.context\":  \"https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsDriverUpdateProfiles/$entity\",\r\n    \"displayName\":  \"Driver Updates\",\r\n    \"description\":  \"\",\r\n    \"approvalType\":  \"automatic\",\r\n    \"deviceReporting\":  0,\r\n    \"newUpdates\":  0,\r\n    \"deploymentDeferralInDays\":  1,\r\n    \"roleScopeTagIds\":  [\r\n                            \"0\"\r\n                        ],\r\n    \"inventorySyncStatus\":  {\r\n                                \"lastSuccessfulSyncDateTime\":  \"\\/Date(1729501178385)\\/\",\r\n                                \"driverInventorySyncState\":  \"success\"\r\n                            }\r\n}",
+                       "value":  "{\r\n    \"@odata.context\":  \"https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsDriverUpdateProfiles/$entity\",\r\n    \"displayName\":  \"Driver Updates\",\r\n    \"description\":  \"\",\r\n    \"approvalType\":  \"automatic\",\r\n    \"deviceReporting\":  0,\r\n    \"newUpdates\":  0,\r\n    \"deploymentDeferralInDays\":  1,\r\n    \"roleScopeTagIds\":  [\r\n                            \"0\"\r\n                        ],\r\n    \"inventorySyncStatus\":  {\r\n                                \"lastSuccessfulSyncDateTime\":  \"\\/Date(1729588288784)\\/\",\r\n                                \"driverInventorySyncState\":  \"success\"\r\n                            }\r\n}",
                        "SideIndicator":  "=\u003e"
                    },
         "Destination":  "Missing from Source",
