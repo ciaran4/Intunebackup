@@ -1095,7 +1095,7 @@
                        "templateId":  "76c03f19-ea37-4656-a772-a183b4ddb81d",
                        "displayName":  "Require phishing-resistant multifactor authentication for admins",
                        "createdDateTime":  "\/Date(1730193097744)\/",
-                       "modifiedDateTime":  "\/Date(1730193161560)\/",
+                       "modifiedDateTime":  "\/Date(1730363190899)\/",
                        "state":  "enabled",
                        "partialEnablementStrategy":  null,
                        "conditions":  {
@@ -1184,19 +1184,16 @@
                                                "disableResilienceDefaults":  null,
                                                "applicationEnforcedRestrictions":  null,
                                                "cloudAppSecurity":  null,
+                                               "persistentBrowser":  null,
                                                "continuousAccessEvaluation":  null,
                                                "secureSignInSession":  null,
                                                "signInFrequency":  {
                                                                        "value":  1,
-                                                                       "type":  "hours",
+                                                                       "type":  "days",
                                                                        "authenticationType":  "primaryAndSecondaryAuthentication",
                                                                        "frequencyInterval":  "timeBased",
                                                                        "isEnabled":  true
-                                                                   },
-                                               "persistentBrowser":  {
-                                                                         "mode":  "never",
-                                                                         "isEnabled":  true
-                                                                     }
+                                                                   }
                                            },
                        "SideIndicator":  "=\u003e"
                    },
@@ -1259,7 +1256,7 @@
     {
         "Name":  "Driver Updates",
         "Source":  {
-                       "value":  "{\r\n    \"@odata.context\":  \"https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsDriverUpdateProfiles/$entity\",\r\n    \"displayName\":  \"Driver Updates\",\r\n    \"description\":  \"\",\r\n    \"approvalType\":  \"automatic\",\r\n    \"deviceReporting\":  0,\r\n    \"newUpdates\":  0,\r\n    \"deploymentDeferralInDays\":  1,\r\n    \"roleScopeTagIds\":  [\r\n                            \"0\"\r\n                        ],\r\n    \"inventorySyncStatus\":  {\r\n                                \"lastSuccessfulSyncDateTime\":  \"\\/Date(1730285926051)\\/\",\r\n                                \"driverInventorySyncState\":  \"success\"\r\n                            }\r\n}",
+                       "value":  "{\r\n    \"@odata.context\":  \"https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsDriverUpdateProfiles/$entity\",\r\n    \"displayName\":  \"Driver Updates\",\r\n    \"description\":  \"\",\r\n    \"approvalType\":  \"automatic\",\r\n    \"deviceReporting\":  0,\r\n    \"newUpdates\":  0,\r\n    \"deploymentDeferralInDays\":  1,\r\n    \"roleScopeTagIds\":  [\r\n                            \"0\"\r\n                        ],\r\n    \"inventorySyncStatus\":  {\r\n                                \"lastSuccessfulSyncDateTime\":  \"\\/Date(1730372880037)\\/\",\r\n                                \"driverInventorySyncState\":  \"success\"\r\n                            }\r\n}",
                        "SideIndicator":  "=\u003e"
                    },
         "Destination":  "Missing from Source",
