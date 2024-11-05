@@ -1256,7 +1256,7 @@
     {
         "Name":  "Driver Updates",
         "Source":  {
-                       "value":  "{\r\n    \"@odata.context\":  \"https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsDriverUpdateProfiles/$entity\",\r\n    \"displayName\":  \"Driver Updates\",\r\n    \"description\":  \"\",\r\n    \"approvalType\":  \"automatic\",\r\n    \"deviceReporting\":  0,\r\n    \"newUpdates\":  0,\r\n    \"deploymentDeferralInDays\":  1,\r\n    \"roleScopeTagIds\":  [\r\n                            \"0\"\r\n                        ],\r\n    \"inventorySyncStatus\":  {\r\n                                \"lastSuccessfulSyncDateTime\":  \"\\/Date(1730633630667)\\/\",\r\n                                \"driverInventorySyncState\":  \"success\"\r\n                            }\r\n}",
+                       "value":  "{\r\n    \"@odata.context\":  \"https://graph.microsoft.com/beta/$metadata#deviceManagement/windowsDriverUpdateProfiles/$entity\",\r\n    \"displayName\":  \"Driver Updates\",\r\n    \"description\":  \"\",\r\n    \"approvalType\":  \"automatic\",\r\n    \"deviceReporting\":  0,\r\n    \"newUpdates\":  0,\r\n    \"deploymentDeferralInDays\":  1,\r\n    \"roleScopeTagIds\":  [\r\n                            \"0\"\r\n                        ],\r\n    \"inventorySyncStatus\":  {\r\n                                \"lastSuccessfulSyncDateTime\":  \"\\/Date(1730720672481)\\/\",\r\n                                \"driverInventorySyncState\":  \"success\"\r\n                            }\r\n}",
                        "SideIndicator":  "=\u003e"
                    },
         "Destination":  "Missing from Source",
